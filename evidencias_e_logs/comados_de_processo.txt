@@ -1,0 +1,1384 @@
+mariana@fedora:~$ ps -eo pid,ppid,stat,ni,pri,psr,pcpu,pmem,nlwp,comm --sort=-pcpu
+    PID    PPID STAT  NI PRI PSR %CPU %MEM NLWP COMMAND
+  27964    1544 Sl     0  19  10 60.1 34.3   21 llama-server
+  28128   28037 R+     0  19   0 50.0  0.0    1 ps
+   8951    6597 Sl     0  19   3  8.7  2.7   22 msedge
+   6779    6597 Sl     0  19   4  6.6  2.5   19 msedge
+   6632    6576 Sl     0  19   2  4.7  0.8   26 msedge
+   6540    6539 Sl     0  19   3  4.1  2.8   49 msedge
+   6790    6597 Sl     0  19   0  2.8  3.5   26 msedge
+   4184    3986 Ssl    0  19   2  2.7  1.4   38 gnome-shell
+  24475    3986 Ssl    0  19   3  1.1  0.8   34 ptyxis
+   4545    3986 SNsl  15   4   5  0.9  1.6   14 gnome-software
+   6638    6540 Sl     0  19   2  0.6  0.7   18 msedge
+   8826    6597 Sl     0  19   2  0.4  1.2   19 msedge
+   2162    2138 Ssl    0  19   0  0.3  0.0    6 redis-server
+   8918    6597 Sl     0  19   2  0.3  1.6   19 msedge
+  28037   24485 Ss     0  19   6  0.2  0.0    1 bash
+   1543       1 Ssl    0  19   8  0.1  0.3   31 dockerd
+  23355    6597 Sl     0  19  10  0.1  0.7   20 msedge
+    118       2 S      0  19   0  0.1  0.0    1 kswapd0
+  23756       2 I      0  19  10  0.1  0.0    1 kworker/u48:8-btrfs-endio-write
+   3541    2256 Sl     0  19   8  0.1  0.5    5 python3.11
+  20090       2 I      0  19   9  0.1  0.0    1 kworker/u48:6-btrfs-endio-meta
+   4543    3986 SNsl   -   0   1  0.1  0.2    8 localsearch-3
+   4327    3986 Ssl    0  19   6  0.1  0.0    4 ibus-daemon
+  27953   27917 Sl+    0  19   5  0.1  0.2   13 ollama
+   5531       1 Ssl    0  19   8  0.1  0.5    5 dnf5daemon-serv
+   1015       1 Ssl    0  19   7  0.1  0.1   19 containerd
+    517       2 S      0  19   0  0.1  0.0    1 btrfs-transaction
+  23755       2 I      0  19   1  0.0  0.0    1 kworker/u48:7-btrfs-endio-write
+     12       2 I      0  19   5  0.0  0.0    1 kworker/u48:0-btrfs-endio
+  17999       2 I      0  19  11  0.0  0.0    1 kworker/u48:5-events_unbound
+   2256    2231 Ssl    0  19   4  0.0  0.1    2 uvicorn
+  27723       2 I      0  19   0  0.0  0.0    1 kworker/u48:1-btrfs-endio
+    713       1 Ss     0  19   0  0.0  0.0    1 systemd-oomd
+    166       2 I      0  19   7  0.0  0.0    1 kworker/u48:9-btrfs-endio
+  14484       2 I      0  19   8  0.0  0.0    1 kworker/u48:4-btrfs-endio
+   1551       1 Ssl    0  19   1  0.0  0.0   31 zerotier-one
+  17603    6597 Sl     0  19   8  0.0  0.9   19 msedge
+  13661       2 I      0  19   9  0.0  0.0    1 kworker/u48:3-btrfs-endio-write
+      1       0 Ss     0  19   1  0.0  0.1    1 systemd
+   4464    4327 Sl     0  19   3  0.0  0.2    6 ibus-extension-
+  27917   24485 Ss     0  19   0  0.0  0.0    1 bash
+  23924       2 I      0  19   3  0.0  0.0    1 kworker/u48:10-btrfs-endio
+     16       2 I      0  19   6  0.0  0.0    1 rcu_preempt
+   4783    4327 Sl     0  19  11  0.0  0.0    4 ibus-engine-sim
+  19356    6597 Sl     0  19   7  0.0  1.0   20 msedge
+   2178       1 Sl     0  19   9  0.0  0.0   11 containerd-shim
+   2138       1 Sl     0  19   1  0.0  0.0   11 containerd-shim
+    823       1 Ssl    0  19  11  0.0  0.0    4 polkitd
+   5453       1 Ssl    0  19   9  0.0  0.2    4 fwupd
+   1546       1 Ssl    0  19   7  0.0  0.3    3 rsyslogd
+   5723    4327 Sl     0  19   2  0.0  0.8    5 ibus-engine-tb
+  12226    6540 Sl     0  19   2  0.0  0.4    9 msedge
+   6809    6532 S      0  19   2  0.0  0.1    1 p11-kit-remote
+    998       1 Ss     0  19   8  0.0  0.8    1 python3
+    999       1 Ssl    0  19   0  0.0  0.2    4 tuned
+   4774    3986 Ssl    0  19   2  0.0  0.0    4 gvfsd-metadata
+   3986       1 Ss     0  19   5  0.0  0.1    1 systemd
+  24485   24475 Ssl    0  19   2  0.0  0.0    5 ptyxis-agent
+   1544       1 Ssl    0  19   3  0.0  0.3   19 ollama
+     97       2 S      0  19   8  0.0  0.0    1 kcompactd0
+   2231       1 Sl     0  19   7  0.0  0.0   11 containerd-shim
+    816       1 Ssl    0  19   0  0.0  0.2    2 firewalld
+    649       1 Ss     0  19   4  0.0  0.0    1 systemd-udevd
+     37       2 S      - 139   3  0.0  0.0    1 migration/3
+   4122    4103 S      0  19  11  0.0  0.0    1 dbus-broker
+     25       2 S      - 139   1  0.0  0.0    1 migration/1
+   4546    3986 S<sl -11  30   4  0.0  0.0    3 pipewire-pulse
+    646       1 Ss     0  19   0  0.0  0.0    1 systemd-resolve
+    611       1 Ss     0  19   3  0.0  0.2    1 systemd-journal
+     43       2 S      - 139   4  0.0  0.0    1 migration/4
+   1361       1 Ssl    0  19   7  0.0  0.1    4 tuned-ppd
+  26345    6597 Sl     0  19   2  0.0  0.4    9 msedge
+    811     809 S      0  19   6  0.0  0.0    1 dbus-broker
+    966       1 Ss     0  19   5  0.0  0.3    1 abrt-dump-journ
+    968       1 Ss     0  19   9  0.0  0.2    1 abrt-dump-journ
+    967       1 Ss     0  19   2  0.0  0.3    1 abrt-dump-journ
+  16155       2 I      0  19   0  0.0  0.0    1 kworker/0:1-events
+     49       2 S      - 139   5  0.0  0.0    1 migration/5
+    165       2 I      0  19   2  0.0  0.0    1 kworker/2:3-mm_percpu_wq
+   4737       1 Ss     0  19   8  0.0  0.0    1 sssd_kcm
+   8405    8404 SNl   15   4  11  0.0  0.0    3 glycin-image-rs
+    843       1 Ss     0  19   6  0.0  0.0    1 systemd-logind
+    828       1 Ss     0  19  10  0.0  0.0    1 systemd-machine
+    820       1 Ssl    0  19   0  0.0  0.0    2 irqbalance
+   6683    6597 Sl     0  19   3  0.0  0.2    9 msedge
+    827       1 Ss     0  19   5  0.0  0.0    1 systemd-homed
+   2204    2178 Ss     0  19   1  0.0  0.1    1 postgres
+   1555       1 Ssl    0  19   2  0.0  0.0    5 gdm
+    244       2 I      0  19   5  0.0  0.0    1 kworker/5:1-mm_percpu_wq
+   4649    3986 Ssl    0  19   3  0.0  0.2    6 xdg-desktop-por
+   6851    6597 Sl     0  19   0  0.0  0.6   19 msedge
+   4194    3986 S<sl -11  30   1  0.0  0.0    3 pipewire
+    817       1 Ssl    0  19  11  0.0  0.1    4 NetworkManager
+    148       2 I      0  19  11  0.0  0.0    1 kworker/11:1-events
+   4195    3986 S<sl -11  30   0  0.0  0.1    9 wireplumber
+  16341       2 I      0  19   1  0.0  0.0    1 kworker/1:1-mm_percpu_wq
+   4676    3986 Ssl    0  19   4  0.0  0.0    6 goa-identity-se
+   4333    3986 Ssl    0  19   7  0.0  0.0    5 gsd-housekeepin
+  10374    6597 Sl     0  19   8  0.0  0.6   19 msedge
+     79       2 S      - 139  10  0.0  0.0    1 migration/10
+   3296       1 Ssl    0  19  11  0.0  0.2    4 geoclue
+    756       2 I      0  19   4  0.0  0.0    1 kworker/4:2-events
+    844       1 Ssl    0  19   2  0.0  0.1    2 waydroid
+    834       1 Ssl    0  19   7  0.0  0.0    4 upowerd
+     31       2 S      - 139   2  0.0  0.0    1 migration/2
+   4544    3986 Ssl    0  19   9  0.0  0.4    8 evolution-alarm
+    102       2 I      0  19   6  0.0  0.0    1 kworker/6:1-mm_percpu_wq
+     19       2 S      - 139   0  0.0  0.0    1 migration/0
+    150       2 I      0  19  10  0.0  0.0    1 kworker/10:1-mm_percpu_wq
+     61       2 S      - 139   7  0.0  0.0    1 migration/7
+  22250       2 I      0  19   7  0.0  0.0    1 kworker/7:1-mm_percpu_wq
+     73       2 S      - 139   9  0.0  0.0    1 migration/9
+     85       2 S      - 139  11  0.0  0.0    1 migration/11
+   5284    3986 Ssl    0  19   7  0.0  0.1    6 xdg-desktop-por
+  24942       2 I      0  19   3  0.0  0.0    1 kworker/3:2-events
+   4611    3986 Ssl    0  19  10  0.0  0.1    5 xdg-desktop-por
+   4319    3986 Ssl    0  19   9  0.0  0.3    5 evolution-sourc
+   2486       1 Ssl    0  19   5  0.0  0.0    4 colord
+  20558       2 I      0  19   9  0.0  0.0    1 kworker/9:2-events
+   6597    6596 S      0  19   1  0.0  0.4    1 msedge
+   5985       1 Ssl    0  19   3  0.0  0.0    4 passimd
+   4314    3986 Ssl    0  19   2  0.0  0.2   12 gjs
+    830       1 Ssl    0  19  10  0.0  0.0    7 udisksd
+   4613    3986 Ssl    0  19   6  0.0  0.0    5 gvfs-afc-volume
+    933       1 Ssl    0  19  10  0.0  0.0    4 ModemManager
+    840       1 Ssl    0  19   4  0.0  0.0    4 accounts-daemon
+     15       2 S      0  19   0  0.0  0.0    1 ksoftirqd/0
+    821       1 Ss     0  19   3  0.0  0.0    1 chronyd
+    814       1 Ss     0  19   0  0.0  0.0    1 avahi-daemon
+   4163    3986 Ssl    0  19  10  0.0  0.0    5 uresourced
+   3540    2256 S      0  19   2  0.0  0.0    1 python3.11
+   2658       1 Ssl    0  19   9  0.0  0.0    9 pcscd
+     32       2 S      0  19   2  0.0  0.0    1 ksoftirqd/2
+   4713    3986 Ssl    0  19   5  0.0  0.2   10 evolution-calen
+  10481       2 I      0  19   8  0.0  0.0    1 kworker/8:0-events
+   4542    3986 Ssl    0  19   2  0.0  0.2   12 gjs
+   4278    3986 Ssl    0  19   7  0.0  0.1    7 gnome-shell-cal
+   4170    3986 Ssl    0  19   8  0.0  0.0    5 gnome-session-s
+    997       1 Ssl    0  19   4  0.0  0.0    6 gssproxy
+    824       1 SNsl   1  18   4  0.0  0.0    3 rtkit-daemon
+    463       2 I<   -20  39   2  0.0  0.0    1 kworker/2:1H-kblockd
+     56       2 S      0  19   6  0.0  0.0    1 ksoftirqd/6
+     68       2 S      0  19   8  0.0  0.0    1 ksoftirqd/8
+   6536    6535 Sl     0  19   5  0.0  0.0    3 xdg-dbus-proxy
+   4874    3986 Ssl    0  19   4  0.0  0.2    7 evolution-addre
+   4586    3986 Ssl    0  19   2  0.0  0.0    5 gvfs-udisks2-vo
+   4342    3986 Ssl    0  19   5  0.0  0.0    5 gsd-media-keys
+   4271    3986 Ssl    0  19   1  0.0  0.0    4 at-spi2-registr
+    863       1 Ssl    0  19   8  0.0  0.0    4 abrtd
+    638       1 Ss     0  19  10  0.0  0.0    1 systemd-userdbd
+    545       2 I<   -20  39   0  0.0  0.0    1 kworker/0:1H-kblockd
+    246       2 I      0  19   8  0.0  0.0    1 kworker/8:2-events
+   6539    6517 S      0  19   8  0.0  0.0    1 bwrap
+   4644    3986 Ssl    0  19   6  0.0  0.2    4 goa-daemon
+   4330    3986 Ssl    0  19   6  0.0  0.0    5 gsd-color
+   4346    3986 Ssl    0  19   7  0.0  0.0    5 gsd-power
+   4270    4269 S      0  19  11  0.0  0.0    1 dbus-broker
+   2472    2204 Ss     0  19   5  0.0  0.0    1 postgres
+    809       1 Ss     0  19   3  0.0  0.0    1 dbus-broker-lau
+    557       2 I<   -20  39   3  0.0  0.0    1 kworker/3:1H-kblockd
+     18       2 S      0  19   6  0.0  0.0    1 rcu_exp_gp_kthread_worker
+   6596    6539 S      0  19   6  0.0  0.0    1 bwrap
+   6582    6549 Ss     0  19   6  0.0  0.0    1 bwrap
+   6576    6540 S      0  19   5  0.0  0.3    1 msedge
+   6549    3986 Ssl    0  19   1  0.0  0.1    4 flatpak-portal
+   6517    4184 S      0  19   8  0.0  0.0    1 bwrap
+   5489    4172 Sl     0  19   3  0.0  0.0    7 gvfsd-mtp
+   4541    3986 Ssl    0  19  11  0.0  0.0    4 ibus-portal
+   4375    3986 Ssl    0  19   6  0.0  0.0    6 gsd-smartcard
+   4349    3986 Ssl    0  19  11  0.0  0.1    4 gsd-print-notif
+   4172    3986 Ssl    0  19   6  0.0  0.0    4 gvfsd
+   4103    3986 Ss     0  19  11  0.0  0.0    1 dbus-broker-lau
+    826       1 Ssl    0  19   1  0.0  0.0    4 switcheroo-cont
+    783       1 S<sl  -4  23   0  0.0  0.0    2 auditd
+    561       2 I<   -20  39   8  0.0  0.0    1 kworker/8:1H-kblockd
+    558       2 I<   -20  39   9  0.0  0.0    1 kworker/9:1H-kblockd
+    546       2 I<   -20  39   1  0.0  0.0    1 kworker/1:1H-kblockd
+     55       2 S      - 139   6  0.0  0.0    1 migration/6
+     67       2 S      - 139   8  0.0  0.0    1 migration/8
+     26       2 S      0  19   1  0.0  0.0    1 ksoftirqd/1
+  15947       2 I<   -20  39   9  0.0  0.0    1 kworker/u49:5-ttm
+  14879       2 I<   -20  39   5  0.0  0.0    1 kworker/u49:2-ttm
+  10805       2 I<   -20  39   5  0.0  0.0    1 kworker/u49:1-ttm
+   9102       2 I<   -20  39   8  0.0  0.0    1 kworker/u49:0-ttm
+   5384       2 I<   -20  39   1  0.0  0.0    1 kworker/u49:14-ttm
+   4703    3986 Ssl    0  19  11  0.0  0.0    4 gvfs-mtp-volume
+   4683    3986 Ssl    0  19   2  0.0  0.0    4 gvfs-gphoto2-vo
+   4627    3986 Ssl    0  19   6  0.0  0.0    7 xdg-document-po
+   4363    3986 Ssl    0  19  11  0.0  0.0    4 gsd-screensaver
+   4373    3986 Ssl    0  19   6  0.0  0.0    5 gsd-sharing
+   4376    3986 Ssl    0  19  11  0.0  0.0    5 gsd-sound
+   4386    3986 Ssl    0  19  11  0.0  0.0    5 gsd-usb-protect
+   4389    3986 Ssl    0  19   8  0.0  0.0    5 gsd-wwan
+   4332    3986 Ssl    0  19   0  0.0  0.0    5 gsd-datetime
+   4337    3986 Ssl    0  19   1  0.0  0.0    5 gsd-keyboard
+   4358    3986 Ssl    0  19   3  0.0  0.0    4 gsd-rfkill
+   4329    3986 Ssl    0  19   0  0.0  0.0    5 gsd-a11y-settin
+   4125    4091 Sl+    0  19   7  0.0  0.0    4 gnome-session-i
+   4006       1 Sl     0  19   5  0.0  0.0    5 gnome-keyring-d
+   3745    1555 Sl     0  19   2  0.0  0.0    4 gdm-session-wor
+   3565    2204 Ss     0  19   2  0.0  0.0    1 postgres
+   3455       1 Ss     0  19   2  0.0  0.0    1 wpa_supplicant
+   2474    2204 Ss     0  19   8  0.0  0.0    1 postgres
+   1694       1 Ssl    0  19   1  0.0  0.0    4 uresourced
+   1554       1 Ss     0  19   2  0.0  0.0    1 crond
+    996       1 Ss     0  19   0  0.0  0.0    1 cupsd
+    825       1 Ss     0  19   8  0.0  0.0    1 smartd
+    624       2 I<   -20  39  11  0.0  0.0    1 kworker/11:1H-kblockd
+    574       2 I<   -20  39   5  0.0  0.0    1 kworker/5:1H-kblockd
+    556       2 I<   -20  39  10  0.0  0.0    1 kworker/10:1H-kblockd
+    555       2 I<   -20  39   4  0.0  0.0    1 kworker/4:1H-kblockd
+    549       2 I<   -20  39   6  0.0  0.0    1 kworker/6:1H-kblockd
+    548       2 I<   -20  39   7  0.0  0.0    1 kworker/7:1H-kblockd
+     74       2 S      0  19   9  0.0  0.0    1 ksoftirqd/9
+     38       2 S      0  19   3  0.0  0.0    1 ksoftirqd/3
+      2       0 S      0  19   8  0.0  0.0    1 kthreadd
+      3       2 S      0  19   4  0.0  0.0    1 pool_workqueue_release
+      4       2 I<   -20  39   0  0.0  0.0    1 kworker/R-rcu_gp
+      5       2 I<   -20  39   0  0.0  0.0    1 kworker/R-sync_wq
+      6       2 I<   -20  39   0  0.0  0.0    1 kworker/R-kvfree_rcu_reclaim
+      7       2 I<   -20  39   0  0.0  0.0    1 kworker/R-slub_flushwq
+      8       2 I<   -20  39   0  0.0  0.0    1 kworker/R-netns
+     10       2 I<   -20  39   0  0.0  0.0    1 kworker/0:0H-kblockd
+     13       2 I<   -20  39   0  0.0  0.0    1 kworker/R-mm_percpu_wq
+     17       2 S      0  19   0  0.0  0.0    1 rcu_exp_par_gp_kthread_worker/0
+     20       2 S      0  19   0  0.0  0.0    1 kprobe-optimizer
+     21       2 S      -  90   0  0.0  0.0    1 idle_inject/0
+     22       2 S      0  19   0  0.0  0.0    1 cpuhp/0
+     23       2 S      0  19   1  0.0  0.0    1 cpuhp/1
+     24       2 S      -  90   1  0.0  0.0    1 idle_inject/1
+     28       2 I<   -20  39   1  0.0  0.0    1 kworker/1:0H-kblockd
+     29       2 S      0  19   2  0.0  0.0    1 cpuhp/2
+     30       2 S      -  90   2  0.0  0.0    1 idle_inject/2
+     34       2 I<   -20  39   2  0.0  0.0    1 kworker/2:0H-kblockd
+     35       2 S      0  19   3  0.0  0.0    1 cpuhp/3
+     36       2 S      -  90   3  0.0  0.0    1 idle_inject/3
+     40       2 I<   -20  39   3  0.0  0.0    1 kworker/3:0H-kblockd
+     41       2 S      0  19   4  0.0  0.0    1 cpuhp/4
+     42       2 S      -  90   4  0.0  0.0    1 idle_inject/4
+     44       2 S      0  19   4  0.0  0.0    1 ksoftirqd/4
+     45       2 I      0  19   4  0.0  0.0    1 kworker/4:0-events
+     46       2 I<   -20  39   4  0.0  0.0    1 kworker/4:0H-kblockd
+     47       2 S      0  19   5  0.0  0.0    1 cpuhp/5
+     48       2 S      -  90   5  0.0  0.0    1 idle_inject/5
+     50       2 S      0  19   5  0.0  0.0    1 ksoftirqd/5
+     52       2 I<   -20  39   5  0.0  0.0    1 kworker/5:0H-kblockd
+     53       2 S      0  19   6  0.0  0.0    1 cpuhp/6
+     54       2 S      -  90   6  0.0  0.0    1 idle_inject/6
+     58       2 I<   -20  39   6  0.0  0.0    1 kworker/6:0H-kblockd
+     59       2 S      0  19   7  0.0  0.0    1 cpuhp/7
+     60       2 S      -  90   7  0.0  0.0    1 idle_inject/7
+     62       2 S      0  19   7  0.0  0.0    1 ksoftirqd/7
+     64       2 I<   -20  39   7  0.0  0.0    1 kworker/7:0H-kblockd
+     65       2 S      0  19   8  0.0  0.0    1 cpuhp/8
+     66       2 S      -  90   8  0.0  0.0    1 idle_inject/8
+     70       2 I<   -20  39   8  0.0  0.0    1 kworker/8:0H-kblockd
+     71       2 S      0  19   9  0.0  0.0    1 cpuhp/9
+     72       2 S      -  90   9  0.0  0.0    1 idle_inject/9
+     76       2 I<   -20  39   9  0.0  0.0    1 kworker/9:0H-kblockd
+     77       2 S      0  19  10  0.0  0.0    1 cpuhp/10
+     78       2 S      -  90  10  0.0  0.0    1 idle_inject/10
+     80       2 S      0  19  10  0.0  0.0    1 ksoftirqd/10
+     82       2 I<   -20  39  10  0.0  0.0    1 kworker/10:0H-kblockd
+     83       2 S      0  19  11  0.0  0.0    1 cpuhp/11
+     84       2 S      -  90  11  0.0  0.0    1 idle_inject/11
+     86       2 S      0  19  11  0.0  0.0    1 ksoftirqd/11
+     88       2 I<   -20  39  11  0.0  0.0    1 kworker/11:0H-kblockd
+     89       2 S      0  19   8  0.0  0.0    1 kdevtmpfs
+     90       2 I<   -20  39   9  0.0  0.0    1 kworker/R-inet_frag_wq
+     91       2 I      0  19   6  0.0  0.0    1 rcu_tasks_kthread
+     92       2 I      0  19   5  0.0  0.0    1 rcu_tasks_rude_kthread
+     93       2 S      0  19   8  0.0  0.0    1 kauditd
+     94       2 S      0  19   2  0.0  0.0    1 oom_reaper
+     95       2 I<   -20  39   3  0.0  0.0    1 kworker/R-writeback
+     98       2 SN     5  14   5  0.0  0.0    1 ksmd
+     99       2 SN    19   0   4  0.0  0.0    1 khugepaged
+    100       2 I<   -20  39   4  0.0  0.0    1 kworker/R-kblockd
+    101       2 I<   -20  39   5  0.0  0.0    1 kworker/R-blkcg_punt_bio
+    103       2 I<   -20  39   5  0.0  0.0    1 kworker/R-kintegrityd
+    104       2 S      -  90   1  0.0  0.0    1 irq/9-acpi
+    106       2 I<   -20  39   7  0.0  0.0    1 kworker/R-tpm_dev_wq
+    107       2 I<   -20  39   7  0.0  0.0    1 kworker/R-ata_sff
+    108       2 I<   -20  39   9  0.0  0.0    1 kworker/R-md_bitmap
+    109       2 I<   -20  39   7  0.0  0.0    1 kworker/R-edac-poller
+    110       2 I<   -20  39   9  0.0  0.0    1 kworker/R-devfreq_wq
+    111       2 S      -  90   9  0.0  0.0    1 watchdogd
+    112       2 I<   -20  39   9  0.0  0.0    1 kworker/R-quota_events_unbound
+    113       2 S      -  90   2  0.0  0.0    1 irq/25-AMD-Vi0-Evt
+    114       2 S      -  90   3  0.0  0.0    1 irq/26-AMD-Vi0-PPR
+    115       2 S      -  90   4  0.0  0.0    1 irq/27-AMD-Vi0-GA
+    119       2 I<   -20  39   9  0.0  0.0    1 kworker/R-cryptd
+    122       2 I<   -20  39   7  0.0  0.0    1 kworker/R-kthrotld
+    124       2 I<   -20  39   7  0.0  0.0    1 kworker/R-acpi_thermal_pm
+    125       2 S      0  19   6  0.0  0.0    1 scsi_eh_0
+    126       2 I<   -20  39   7  0.0  0.0    1 kworker/R-scsi_tmf_0
+    127       2 S      0  19   7  0.0  0.0    1 scsi_eh_1
+    128       2 I<   -20  39   7  0.0  0.0    1 kworker/R-scsi_tmf_1
+    129       2 S      0  19  10  0.0  0.0    1 scsi_eh_2
+    130       2 I<   -20  39   7  0.0  0.0    1 kworker/R-scsi_tmf_2
+    131       2 S      0  19  11  0.0  0.0    1 scsi_eh_3
+    132       2 I<   -20  39   7  0.0  0.0    1 kworker/R-scsi_tmf_3
+    133       2 S      0  19   1  0.0  0.0    1 scsi_eh_4
+    134       2 I<   -20  39   7  0.0  0.0    1 kworker/R-scsi_tmf_4
+    135       2 S      0  19  11  0.0  0.0    1 scsi_eh_5
+    136       2 I<   -20  39   7  0.0  0.0    1 kworker/R-scsi_tmf_5
+    143       2 I<   -20  39   7  0.0  0.0    1 kworker/R-dm_bufio_cache
+    144       2 I<   -20  39   1  0.0  0.0    1 kworker/R-mld
+    145       2 I<   -20  39   4  0.0  0.0    1 kworker/R-ipv6_addrconf
+    146       2 I<   -20  39   5  0.0  0.0    1 kworker/R-kstrp
+    147       2 I      0  19   3  0.0  0.0    1 kworker/3:1-events
+    313       2 I      0  19  11  0.0  0.0    1 kworker/11:2-events
+    457       2 I<   -20  39  10  0.0  0.0    1 kworker/R-nvme-wq
+    458       2 I<   -20  39   3  0.0  0.0    1 kworker/R-nvme-reset-wq
+    459       2 I<   -20  39   8  0.0  0.0    1 kworker/R-nvme-delete-wq
+    460       2 I<   -20  39  11  0.0  0.0    1 kworker/R-nvme-auth-wq
+    467       2 I<   -20  39  10  0.0  0.0    1 kworker/R-amdgpu-reset-dev
+    468       2 I<   -20  39  11  0.0  0.0    1 kworker/R-ttm
+    469       2 I<   -20  39   6  0.0  0.0    1 kworker/R-amdgpu_dm_hpd_rx_offload_wq
+    470       2 I<   -20  39  11  0.0  0.0    1 kworker/R-amdgpu_dm_hpd_rx_offload_wq
+    471       2 I<   -20  39  11  0.0  0.0    1 kworker/R-amdgpu_dm_hpd_rx_offload_wq
+    472       2 I<   -20  39  11  0.0  0.0    1 kworker/R-dm_vblank_control_workqueue
+    473       2 S      -  90   4  0.0  0.0    1 card1-crtc0
+    474       2 S      -  90   9  0.0  0.0    1 card1-crtc1
+    475       2 S      -  90   9  0.0  0.0    1 card1-crtc2
+    476       2 S      -  90   9  0.0  0.0    1 card1-crtc3
+    477       2 I<   -20  39   9  0.0  0.0    1 kworker/R-gfx
+    478       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.0.0
+    479       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.1.0
+    480       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.2.0
+    481       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.3.0
+    482       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.0.1
+    483       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.1.1
+    484       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.2.1
+    485       2 I<   -20  39   9  0.0  0.0    1 kworker/R-comp_1.3.1
+    486       2 I<   -20  39   9  0.0  0.0    1 kworker/R-sdma0
+    487       2 I<   -20  39   1  0.0  0.0    1 kworker/R-vcn_dec
+    488       2 I<   -20  39   9  0.0  0.0    1 kworker/R-vcn_enc0
+    489       2 I<   -20  39   9  0.0  0.0    1 kworker/R-vcn_enc1
+    490       2 I<   -20  39   9  0.0  0.0    1 kworker/R-jpeg_dec
+    504       2 I<   -20  39   5  0.0  0.0    1 kworker/R-btrfs-worker
+    505       2 I<   -20  39   4  0.0  0.0    1 kworker/R-btrfs-delalloc
+    506       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-flush_delalloc
+    507       2 I<   -20  39   4  0.0  0.0    1 kworker/R-btrfs-cache
+    508       2 I<   -20  39   5  0.0  0.0    1 kworker/R-btrfs-fixup
+    509       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-endio
+    510       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-endio-meta
+    511       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-rmw
+    512       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-endio-write
+    513       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-freespace-write
+    514       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-delayed-meta
+    515       2 I<   -20  39   1  0.0  0.0    1 kworker/R-btrfs-qgroup-rescan
+    516       2 S      0  19   4  0.0  0.0    1 btrfs-cleaner
+    600       2 S      -  41  11  0.0  0.0    1 psimon
+    639       2 I      0  19   6  0.0  0.0    1 kworker/6:2-events
+    652       2 S      -  41  10  0.0  0.0    1 psimon
+    752       2 S      0  19   8  0.0  0.0    1 jbd2/nvme0n1p2-8
+    753       2 I<   -20  39   8  0.0  0.0    1 kworker/R-ext4-rsv-conversion
+    857       1 SNs    -   0   2  0.0  0.0    1 alsactl
+    860     814 S      0  19   8  0.0  0.0    1 avahi-daemon
+    861       2 S      -  41  11  0.0  0.0    1 psimon
+    958       2 I<   -20  39  10  0.0  0.0    1 kworker/R-rpciod
+    959       2 I<   -20  39  11  0.0  0.0    1 kworker/R-xprtiod
+   1553       1 Ss     0  19   0  0.0  0.0    1 atd
+   2302    1543 Sl     0  19  11  0.0  0.0    6 docker-proxy
+   2308    1543 Sl     0  19  10  0.0  0.0    7 docker-proxy
+   2343    1543 Sl     0  19   5  0.0  0.0    7 docker-proxy
+   2350    1543 Sl     0  19   2  0.0  0.0    7 docker-proxy
+   2368    1543 Sl     0  19   4  0.0  0.0    7 docker-proxy
+   2375    1543 Sl     0  19   5  0.0  0.0    6 docker-proxy
+   2471    2204 Ss     0  19   4  0.0  0.0    1 postgres
+   2475    2204 Ss     0  19   7  0.0  0.0    1 postgres
+   2476    2204 Ss     0  19   2  0.0  0.0    1 postgres
+   3902       2 I      0  19  10  0.0  0.0    1 kworker/10:2-events
+   3988    3986 S      0  19   4  0.0  0.0    1 (sd-pam)
+   4091    3745 Ssl+   0  19   4  0.0  0.0    4 gdm-wayland-ses
+   4162    3986 Ssl    0  19   3  0.0  0.0    2 gnome-session-c
+   4183    3986 Sl     0  19   4  0.0  0.0    6 gvfsd-fuse
+   4263    3986 Ssl    0  19   3  0.0  0.0    5 at-spi-bus-laun
+   4269    4263 S      0  19   5  0.0  0.0    1 dbus-broker-lau
+   4276    3986 Ssl    0  19   5  0.0  0.0    4 xdg-permission-
+   4348    3986 Sl     0  19  10  0.0  0.0    4 gsd-disk-utilit
+   4459    4327 Sl     0  19   8  0.0  0.0    5 ibus-dconf
+   4626    3986 Ssl    0  19   5  0.0  0.0    4 gvfs-goa-volume
+   4641    4627 Ss     0  19   2  0.0  0.0    1 fusermount3
+   5291    3986 Ssl    0  19   6  0.0  0.0    4 gnome-keyring-d
+   5303    3986 Sl     0  19  10  0.0  0.0    4 gsd-printer
+   5374    3986 Ssl    0  19   8  0.0  0.0    4 dconf-service
+   6527    3986 Ssl    0  19   2  0.0  0.0    4 flatpak-session
+   6532    3986 Ss     0  19   4  0.0  0.0    1 p11-kit-server
+   6535    3986 S      0  19   4  0.0  0.0    1 bwrap
+   6562    6539 Sl     0  19   2  0.0  0.0    3 msedge_crashpad
+   6564    6539 Sl     0  19   1  0.0  0.0    2 msedge_crashpad
+   6578    6540 Z      0  19   6  0.0  0.0    1 zypak-sandbox <defunct>
+   6580    6539 S      0  19   1  0.0  0.0    1 cat
+   6581    6539 S      0  19  10  0.0  0.0    1 cat
+   7894       2 I      0  19   7  0.0  0.0    1 kworker/7:0
+   8403    4545 SN    15   4   1  0.0  0.0    1 bwrap
+   8404    8403 SN    15   4   0  0.0  0.0    1 bwrap
+  11717    3986 S      0  19   1  0.0  0.0    1 catatonit
+  11963       2 I      0  19   5  0.0  0.0    1 kworker/5:0-events
+  12427       2 I      0  19   9  0.0  0.0    1 kworker/9:0
+  17997       2 I<   -20  39  11  0.0  0.0    1 kworker/u49:15-ttm
+  19825       1 Ss     0  19   7  0.0  0.0    1 anacron
+  20199       2 I      0  19   2  0.0  0.0    1 kworker/2:1-events
+  21522       2 I      0  19   1  0.0  0.0    1 kworker/1:0
+  22562       2 I<   -20  39  10  0.0  0.0    1 kworker/u49:6-ttm
+  22563       2 I<   -20  39   1  0.0  0.0    1 kworker/u49:8-ttm
+  24791       2 I      0  19   0  0.0  0.0    1 kworker/0:0
+  26468       2 I<   -20  39  11  0.0  0.0    1 kworker/u49:3-ttm
+  26469       2 I<   -20  39   9  0.0  0.0    1 kworker/u49:4-ttm
+  26599       2 I<   -20  39   9  0.0  0.0    1 kworker/u49:7-ttm
+  26740     638 S      0  19   5  0.0  0.0    1 systemd-userwor
+  26833       2 I<   -20  39  10  0.0  0.0    1 kworker/u49:9-ttm
+  26834       2 I<   -20  39  11  0.0  0.0    1 kworker/u49:10
+  27078     638 S      0  19   9  0.0  0.0    1 systemd-userwor
+  27219     638 S      0  19   3  0.0  0.0    1 systemd-userwor
+  27230       2 I      0  19  10  0.0  0.0    1 kworker/10:0
+mariana@fedora:~$ pstree -p
+systemd(1)─┬─ModemManager(933)─┬─{ModemManager}(946)
+           │                   ├─{ModemManager}(949)
+           │                   └─{ModemManager}(952)
+           ├─NetworkManager(817)─┬─{NetworkManager}(935)
+           │                     ├─{NetworkManager}(936)
+           │                     └─{NetworkManager}(937)
+           ├─abrt-dump-journ(966)
+           ├─abrt-dump-journ(967)
+           ├─abrt-dump-journ(968)
+           ├─abrtd(863)─┬─{abrtd}(962)
+           │            ├─{abrtd}(963)
+           │            └─{abrtd}(965)
+           ├─accounts-daemon(840)─┬─{accounts-daemon}(878)
+           │                      ├─{accounts-daemon}(879)
+           │                      └─{accounts-daemon}(881)
+           ├─alsactl(857)
+           ├─anacron(19825)
+           ├─atd(1553)
+           ├─auditd(783)───{auditd}(784)
+           ├─avahi-daemon(814)───avahi-daemon(860)
+           ├─chronyd(821)
+           ├─colord(2486)─┬─{colord}(2493)
+           │              ├─{colord}(2494)
+           │              └─{colord}(2496)
+           ├─containerd(1015)─┬─{containerd}(1016)
+           │                  ├─{containerd}(1017)
+           │                  ├─{containerd}(1018)
+           │                  ├─{containerd}(1019)
+           │                  ├─{containerd}(1020)
+           │                  ├─{containerd}(1026)
+           │                  ├─{containerd}(1027)
+           │                  ├─{containerd}(1457)
+           │                  ├─{containerd}(1458)
+           │                  ├─{containerd}(1459)
+           │                  ├─{containerd}(1460)
+           │                  ├─{containerd}(1463)
+           │                  ├─{containerd}(1464)
+           │                  ├─{containerd}(1465)
+           │                  ├─{containerd}(1483)
+           │                  ├─{containerd}(1484)
+           │                  ├─{containerd}(1785)
+           │                  └─{containerd}(1786)
+           ├─containerd-shim(2138)─┬─redis-server(2162)─┬─{redis-server}(2398)
+           │                       │                    ├─{redis-server}(2399)
+           │                       │                    ├─{redis-server}(2400)
+           │                       │                    ├─{redis-server}(2401)
+           │                       │                    └─{redis-server}(2402)
+           │                       ├─{containerd-shim}(2140)
+           │                       ├─{containerd-shim}(2141)
+           │                       ├─{containerd-shim}(2142)
+           │                       ├─{containerd-shim}(2143)
+           │                       ├─{containerd-shim}(2144)
+           │                       ├─{containerd-shim}(2145)
+           │                       ├─{containerd-shim}(2146)
+           │                       ├─{containerd-shim}(2147)
+           │                       ├─{containerd-shim}(2148)
+           │                       └─{containerd-shim}(3833)
+           ├─containerd-shim(2178)─┬─postgres(2204)─┬─postgres(2471)
+           │                       │                ├─postgres(2472)
+           │                       │                ├─postgres(2474)
+           │                       │                ├─postgres(2475)
+           │                       │                ├─postgres(2476)
+           │                       │                └─postgres(3565)
+           │                       ├─{containerd-shim}(2181)
+           │                       ├─{containerd-shim}(2182)
+           │                       ├─{containerd-shim}(2183)
+           │                       ├─{containerd-shim}(2184)
+           │                       ├─{containerd-shim}(2185)
+           │                       ├─{containerd-shim}(2186)
+           │                       ├─{containerd-shim}(2187)
+           │                       ├─{containerd-shim}(2188)
+           │                       ├─{containerd-shim}(2189)
+           │                       └─{containerd-shim}(3853)
+           ├─containerd-shim(2231)─┬─uvicorn(2256)─┬─python3.11(3540)
+           │                       │               ├─python3.11(3541)─┬─{python3.11}(3561)
+           │                       │               │                  ├─{python3.11}(3562)
+           │                       │               │                  ├─{python3.11}(3563)
+           │                       │               │                  └─{python3.11}(3564)
+           │                       │               └─{uvicorn}(3542)
+           │                       ├─{containerd-shim}(2234)
+           │                       ├─{containerd-shim}(2235)
+           │                       ├─{containerd-shim}(2236)
+           │                       ├─{containerd-shim}(2237)
+           │                       ├─{containerd-shim}(2238)
+           │                       ├─{containerd-shim}(2239)
+           │                       ├─{containerd-shim}(2240)
+           │                       ├─{containerd-shim}(2241)
+           │                       ├─{containerd-shim}(2242)
+           │                       └─{containerd-shim}(2416)
+           ├─crond(1554)
+           ├─cupsd(996)
+           ├─dbus-broker-lau(809)───dbus-broker(811)
+           ├─dnf5daemon-serv(5531)─┬─{dnf5daemon-serv}(5539)
+           │                       ├─{dnf5daemon-serv}(5540)
+           │                       ├─{dnf5daemon-serv}(5573)
+           │                       └─{dnf5daemon-serv}(5574)
+           ├─dockerd(1543)─┬─docker-proxy(2302)─┬─{docker-proxy}(2303)
+           │               │                    ├─{docker-proxy}(2304)
+           │               │                    ├─{docker-proxy}(2305)
+           │               │                    ├─{docker-proxy}(2306)
+           │               │                    └─{docker-proxy}(2307)
+           │               ├─docker-proxy(2308)─┬─{docker-proxy}(2309)
+           │               │                    ├─{docker-proxy}(2310)
+           │               │                    ├─{docker-proxy}(2311)
+           │               │                    ├─{docker-proxy}(2312)
+           │               │                    ├─{docker-proxy}(2313)
+           │               │                    └─{docker-proxy}(2314)
+           │               ├─docker-proxy(2343)─┬─{docker-proxy}(2344)
+           │               │                    ├─{docker-proxy}(2345)
+           │               │                    ├─{docker-proxy}(2346)
+           │               │                    ├─{docker-proxy}(2347)
+           │               │                    ├─{docker-proxy}(2348)
+           │               │                    └─{docker-proxy}(2349)
+           │               ├─docker-proxy(2350)─┬─{docker-proxy}(2351)
+           │               │                    ├─{docker-proxy}(2352)
+           │               │                    ├─{docker-proxy}(2353)
+           │               │                    ├─{docker-proxy}(2354)
+           │               │                    ├─{docker-proxy}(2355)
+           │               │                    └─{docker-proxy}(2356)
+           │               ├─docker-proxy(2368)─┬─{docker-proxy}(2369)
+           │               │                    ├─{docker-proxy}(2370)
+           │               │                    ├─{docker-proxy}(2371)
+           │               │                    ├─{docker-proxy}(2372)
+           │               │                    ├─{docker-proxy}(2373)
+           │               │                    └─{docker-proxy}(2374)
+           │               ├─docker-proxy(2375)─┬─{docker-proxy}(2376)
+           │               │                    ├─{docker-proxy}(2377)
+           │               │                    ├─{docker-proxy}(2378)
+           │               │                    ├─{docker-proxy}(2379)
+           │               │                    └─{docker-proxy}(2380)
+           │               ├─{dockerd}(1651)
+           │               ├─{dockerd}(1652)
+           │               ├─{dockerd}(1653)
+           │               ├─{dockerd}(1654)
+           │               ├─{dockerd}(1655)
+           │               ├─{dockerd}(1721)
+           │               ├─{dockerd}(1722)
+           │               ├─{dockerd}(1723)
+           │               ├─{dockerd}(1724)
+           │               ├─{dockerd}(1726)
+           │               ├─{dockerd}(1731)
+           │               ├─{dockerd}(1732)
+           │               ├─{dockerd}(1767)
+           │               ├─{dockerd}(1768)
+           │               ├─{dockerd}(1769)
+           │               ├─{dockerd}(1770)
+           │               ├─{dockerd}(1790)
+           │               ├─{dockerd}(1791)
+           │               ├─{dockerd}(1792)
+           │               ├─{dockerd}(1793)
+           │               ├─{dockerd}(2116)
+           │               ├─{dockerd}(2117)
+           │               ├─{dockerd}(2118)
+           │               ├─{dockerd}(2119)
+           │               ├─{dockerd}(2120)
+           │               ├─{dockerd}(2121)
+           │               ├─{dockerd}(2122)
+           │               ├─{dockerd}(2123)
+           │               ├─{dockerd}(2124)
+           │               └─{dockerd}(2125)
+           ├─firewalld(816)───{firewalld}(1456)
+           ├─fwupd(5453)─┬─{fwupd}(5484)
+           │             ├─{fwupd}(5497)
+           │             └─{fwupd}(5498)
+           ├─gdm(1555)─┬─gdm-session-wor(3745)─┬─gdm-wayland-ses(4091)─┬─gnome-session-i(4125)─┬─{gnome-session-i}(4158)
+           │           │                       │                       │                       ├─{gnome-session-i}(4159)
+           │           │                       │                       │                       └─{gnome-session-i}(4160)
+           │           │                       │                       ├─{gdm-wayland-ses}(4099)
+           │           │                       │                       ├─{gdm-wayland-ses}(4100)
+           │           │                       │                       └─{gdm-wayland-ses}(4124)
+           │           │                       ├─{gdm-session-wor}(3746)
+           │           │                       ├─{gdm-session-wor}(3747)
+           │           │                       └─{gdm-session-wor}(3749)
+           │           ├─{gdm}(1560)
+           │           ├─{gdm}(1561)
+           │           ├─{gdm}(1562)
+           │           └─{gdm}(1563)
+           ├─geoclue(3296)─┬─{geoclue}(3414)
+           │               ├─{geoclue}(3415)
+           │               └─{geoclue}(3418)
+           ├─gnome-keyring-d(4006)─┬─{gnome-keyring-d}(4007)
+           │                       ├─{gnome-keyring-d}(4008)
+           │                       ├─{gnome-keyring-d}(4009)
+           │                       └─{gnome-keyring-d}(5293)
+           ├─gssproxy(997)─┬─{gssproxy}(1021)
+           │               ├─{gssproxy}(1022)
+           │               ├─{gssproxy}(1023)
+           │               ├─{gssproxy}(1024)
+           │               └─{gssproxy}(1025)
+           ├─irqbalance(820)───{irqbalance}(882)
+           ├─ollama(1544)─┬─{ollama}(1669)
+           │              ├─{ollama}(1670)
+           │              ├─{ollama}(1671)
+           │              ├─{ollama}(1672)
+           │              ├─{ollama}(1673)
+           │              ├─{ollama}(1679)
+           │              ├─{ollama}(1680)
+           │              ├─{ollama}(1681)
+           │              ├─{ollama}(1682)
+           │              ├─{ollama}(1683)
+           │              ├─{ollama}(1733)
+           │              ├─{ollama}(1734)
+           │              ├─{ollama}(1735)
+           │              ├─{ollama}(1736)
+           │              ├─{ollama}(1762)
+           │              ├─{ollama}(2045)
+           │              ├─{ollama}(24708)
+           │              └─{ollama}(24709)
+           ├─passimd(5985)─┬─{passimd}(5990)
+           │               ├─{passimd}(5991)
+           │               └─{passimd}(5992)
+           ├─pcscd(2658)─┬─{pcscd}(2680)
+           │             ├─{pcscd}(2684)
+           │             ├─{pcscd}(2686)
+           │             ├─{pcscd}(2687)
+           │             ├─{pcscd}(2688)
+           │             ├─{pcscd}(4443)
+           │             ├─{pcscd}(4845)
+           │             └─{pcscd}(5621)
+           ├─polkitd(823)─┬─{polkitd}(893)
+           │              ├─{polkitd}(895)
+           │              └─{polkitd}(898)
+           ├─python3(998)
+           ├─rsyslogd(1546)─┬─{rsyslogd}(1596)
+           │                └─{rsyslogd}(1639)
+           ├─rtkit-daemon(824)─┬─{rtkit-daemon}(858)
+           │                   └─{rtkit-daemon}(859)
+           ├─smartd(825)
+           ├─sssd_kcm(4737)
+           ├─switcheroo-cont(826)─┬─{switcheroo-cont}(853)
+           │                      ├─{switcheroo-cont}(854)
+           │                      └─{switcheroo-cont}(856)
+           ├─systemd(3986)─┬─(sd-pam)(3988)
+           │               ├─at-spi-bus-laun(4263)─┬─dbus-broker-lau(4269)───dbus-broker(4270)
+           │               │                       ├─{at-spi-bus-laun}(4264)
+           │               │                       ├─{at-spi-bus-laun}(4265)
+           │               │                       ├─{at-spi-bus-laun}(4266)
+           │               │                       └─{at-spi-bus-laun}(4268)
+           │               ├─at-spi2-registr(4271)─┬─{at-spi2-registr}(4272)
+           │               │                       ├─{at-spi2-registr}(4273)
+           │               │                       └─{at-spi2-registr}(4274)
+           │               ├─bwrap(6535)───xdg-dbus-proxy(6536)─┬─{xdg-dbus-proxy}(6537)
+           │               │                                    └─{xdg-dbus-proxy}(6538)
+           │               ├─catatonit(11717)
+           │               ├─dbus-broker-lau(4103)───dbus-broker(4122)
+           │               ├─dconf-service(5374)─┬─{dconf-service}(5375)
+           │               │                     ├─{dconf-service}(5376)
+           │               │                     └─{dconf-service}(5377)
+           │               ├─evolution-addre(4874)─┬─{evolution-addre}(4875)
+           │               │                       ├─{evolution-addre}(4876)
+           │               │                       ├─{evolution-addre}(4877)
+           │               │                       ├─{evolution-addre}(4909)
+           │               │                       ├─{evolution-addre}(4910)
+           │               │                       └─{evolution-addre}(4919)
+           │               ├─evolution-alarm(4544)─┬─{evolution-alarm}(4655)
+           │               │                       ├─{evolution-alarm}(4656)
+           │               │                       ├─{evolution-alarm}(4657)
+           │               │                       ├─{evolution-alarm}(4659)
+           │               │                       ├─{evolution-alarm}(4660)
+           │               │                       ├─{evolution-alarm}(5229)
+           │               │                       └─{evolution-alarm}(5239)
+           │               ├─evolution-calen(4713)─┬─{evolution-calen}(4727)
+           │               │                       ├─{evolution-calen}(4728)
+           │               │                       ├─{evolution-calen}(4729)
+           │               │                       ├─{evolution-calen}(4863)
+           │               │                       ├─{evolution-calen}(4864)
+           │               │                       ├─{evolution-calen}(4869)
+           │               │                       ├─{evolution-calen}(4872)
+           │               │                       ├─{evolution-calen}(4873)
+           │               │                       └─{evolution-calen}(5243)
+           │               ├─evolution-sourc(4319)─┬─{evolution-sourc}(4509)
+           │               │                       ├─{evolution-sourc}(4513)
+           │               │                       ├─{evolution-sourc}(4514)
+           │               │                       └─{evolution-sourc}(4673)
+           │               ├─flatpak-portal(6549)─┬─bwrap(6582)
+           │               │                      ├─{flatpak-portal}(6550)
+           │               │                      ├─{flatpak-portal}(6551)
+           │               │                      └─{flatpak-portal}(6552)
+           │               ├─flatpak-session(6527)─┬─{flatpak-session}(6528)
+           │               │                       ├─{flatpak-session}(6529)
+           │               │                       └─{flatpak-session}(6530)
+           │               ├─gjs(4314)─┬─{gjs}(4343)
+           │               │           ├─{gjs}(4344)
+           │               │           ├─{gjs}(4347)
+           │               │           ├─{gjs}(4350)
+           │               │           ├─{gjs}(4351)
+           │               │           ├─{gjs}(4352)
+           │               │           ├─{gjs}(4353)
+           │               │           ├─{gjs}(4354)
+           │               │           ├─{gjs}(4355)
+           │               │           ├─{gjs}(4356)
+           │               │           └─{gjs}(4357)
+           │               ├─gjs(4542)─┬─{gjs}(4557)
+           │               │           ├─{gjs}(4558)
+           │               │           ├─{gjs}(4559)
+           │               │           ├─{gjs}(4561)
+           │               │           ├─{gjs}(4562)
+           │               │           ├─{gjs}(4563)
+           │               │           ├─{gjs}(4564)
+           │               │           ├─{gjs}(4565)
+           │               │           ├─{gjs}(4566)
+           │               │           ├─{gjs}(4567)
+           │               │           └─{gjs}(4568)
+           │               ├─gnome-keyring-d(5291)─┬─{gnome-keyring-d}(5295)
+           │               │                       ├─{gnome-keyring-d}(5296)
+           │               │                       └─{gnome-keyring-d}(5297)
+           │               ├─gnome-session-c(4162)───{gnome-session-c}(4165)
+           │               ├─gnome-session-s(4170)─┬─{gnome-session-s}(4173)
+           │               │                       ├─{gnome-session-s}(4174)
+           │               │                       ├─{gnome-session-s}(4175)
+           │               │                       └─{gnome-session-s}(4177)
+           │               ├─gnome-shell(4184)─┬─bwrap(6517)───bwrap(6539)─┬─bwrap(6596)───msedge(6597)─┬─msedge(6683)─┬─{msedge}(66+
+           │               │                   │                           │                            │              ├─{msedge}(66+
+           │               │                   │                           │                            │              ├─{msedge}(66+
+           │               │                   │                           │                            │              ├─{msedge}(66+
+           │               │                   │                           │                            │              ├─{msedge}(66+
+           │               │                   │                           │                            │              ├─{msedge}(66+
+           │               │                   │                           │                            │              ├─{msedge}(66+
+           │               │                   │                           │                            │              └─{msedge}(11+
+           │               │                   │                           │                            ├─msedge(6779)─┬─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              └─{msedge}(75+
+           │               │                   │                           │                            ├─msedge(6790)─┬─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(67+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(76+
+           │               │                   │                           │                            │              ├─{msedge}(12+
+           │               │                   │                           │                            │              └─{msedge}(12+
+           │               │                   │                           │                            ├─msedge(6851)─┬─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(68+
+           │               │                   │                           │                            │              ├─{msedge}(72+
+           │               │                   │                           │                            │              ├─{msedge}(72+
+           │               │                   │                           │                            │              ├─{msedge}(72+
+           │               │                   │                           │                            │              ├─{msedge}(72+
+           │               │                   │                           │                            │              ├─{msedge}(72+
+           │               │                   │                           │                            │              └─{msedge}(11+
+           │               │                   │                           │                            ├─msedge(8826)─┬─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(88+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              └─{msedge}(93+
+           │               │                   │                           │                            ├─msedge(8918)─┬─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              └─{msedge}(93+
+           │               │                   │                           │                            ├─msedge(8951)─┬─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(89+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              ├─{msedge}(92+
+           │               │                   │                           │                            │              └─{msedge}(96+
+           │               │                   │                           │                            ├─msedge(10374)─┬─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               └─{msedge}(1+
+           │               │                   │                           │                            ├─msedge(17603)─┬─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               └─{msedge}(1+
+           │               │                   │                           │                            ├─msedge(19356)─┬─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               ├─{msedge}(1+
+           │               │                   │                           │                            │               └─{msedge}(1+
+           │               │                   │                           │                            ├─msedge(29495)─┬─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               ├─{msedge}(2+
+           │               │                   │                           │                            │               └─{msedge}(2+
+           │               │                   │                           │                            └─msedge(29797)─┬─{msedge}(2+
+           │               │                   │                           │                                            ├─{msedge}(2+
+           │               │                   │                           │                                            ├─{msedge}(2+
+           │               │                   │                           │                                            ├─{msedge}(2+
+           │               │                   │                           │                                            ├─{msedge}(2+
+           │               │                   │                           │                                            ├─{msedge}(2+
+           │               │                   │                           │                                            ├─{msedge}(2+
+           │               │                   │                           │                                            └─{msedge}(2+
+           │               │                   │                           ├─cat(6580)
+           │               │                   │                           ├─cat(6581)
+           │               │                   │                           ├─msedge(6540)─┬─msedge(6576)───msedge(6632)─┬─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(6+
+           │               │                   │                           │              │                             ├─{msedge}(7+
+           │               │                   │                           │              │                             ├─{msedge}(8+
+           │               │                   │                           │              │                             ├─{msedge}(1+
+           │               │                   │                           │              │                             └─{msedge}(1+
+           │               │                   │                           │              ├─msedge(6638)─┬─{msedge}(6640)
+           │               │                   │                           │              │              ├─{msedge}(6641)
+           │               │                   │                           │              │              ├─{msedge}(6642)
+           │               │                   │                           │              │              ├─{msedge}(6643)
+           │               │                   │                           │              │              ├─{msedge}(6644)
+           │               │                   │                           │              │              ├─{msedge}(6645)
+           │               │                   │                           │              │              ├─{msedge}(6646)
+           │               │                   │                           │              │              ├─{msedge}(6647)
+           │               │                   │                           │              │              ├─{msedge}(6648)
+           │               │                   │                           │              │              ├─{msedge}(6716)
+           │               │                   │                           │              │              ├─{msedge}(6719)
+           │               │                   │                           │              │              ├─{msedge}(6721)
+           │               │                   │                           │              │              ├─{msedge}(6722)
+           │               │                   │                           │              │              ├─{msedge}(6726)
+           │               │                   │                           │              │              ├─{msedge}(6727)
+           │               │                   │                           │              │              ├─{msedge}(6828)
+           │               │                   │                           │              │              └─{msedge}(11837)
+           │               │                   │                           │              ├─msedge(12226)─┬─{msedge}(12228)
+           │               │                   │                           │              │               ├─{msedge}(12229)
+           │               │                   │                           │              │               ├─{msedge}(12230)
+           │               │                   │                           │              │               ├─{msedge}(12231)
+           │               │                   │                           │              │               ├─{msedge}(12232)
+           │               │                   │                           │              │               ├─{msedge}(12233)
+           │               │                   │                           │              │               ├─{msedge}(12234)
+           │               │                   │                           │              │               └─{msedge}(14580)
+           │               │                   │                           │              ├─zypak-sandbox(6578)
+           │               │                   │                           │              ├─{msedge}(6575)
+           │               │                   │                           │              ├─{msedge}(6599)
+           │               │                   │                           │              ├─{msedge}(6600)
+           │               │                   │                           │              ├─{msedge}(6601)
+           │               │                   │                           │              ├─{msedge}(6602)
+           │               │                   │                           │              ├─{msedge}(6603)
+           │               │                   │                           │              ├─{msedge}(6604)
+           │               │                   │                           │              ├─{msedge}(6605)
+           │               │                   │                           │              ├─{msedge}(6606)
+           │               │                   │                           │              ├─{msedge}(6607)
+           │               │                   │                           │              ├─{msedge}(6608)
+           │               │                   │                           │              ├─{msedge}(6609)
+           │               │                   │                           │              ├─{msedge}(6610)
+           │               │                   │                           │              ├─{msedge}(6611)
+           │               │                   │                           │              ├─{msedge}(6620)
+           │               │                   │                           │              ├─{msedge}(6621)
+           │               │                   │                           │              ├─{msedge}(6622)
+           │               │                   │                           │              ├─{msedge}(6623)
+           │               │                   │                           │              ├─{msedge}(6624)
+           │               │                   │                           │              ├─{msedge}(6625)
+           │               │                   │                           │              ├─{msedge}(6626)
+           │               │                   │                           │              ├─{msedge}(6627)
+           │               │                   │                           │              ├─{msedge}(6628)
+           │               │                   │                           │              ├─{msedge}(6629)
+           │               │                   │                           │              ├─{msedge}(6630)
+           │               │                   │                           │              ├─{msedge}(6631)
+           │               │                   │                           │              ├─{msedge}(6693)
+           │               │                   │                           │              ├─{msedge}(6694)
+           │               │                   │                           │              ├─{msedge}(6695)
+           │               │                   │                           │              ├─{msedge}(6696)
+           │               │                   │                           │              ├─{msedge}(6697)
+           │               │                   │                           │              ├─{msedge}(6698)
+           │               │                   │                           │              ├─{msedge}(6700)
+           │               │                   │                           │              ├─{msedge}(6701)
+           │               │                   │                           │              ├─{msedge}(6702)
+           │               │                   │                           │              ├─{msedge}(6703)
+           │               │                   │                           │              ├─{msedge}(6714)
+           │               │                   │                           │              ├─{msedge}(6717)
+           │               │                   │                           │              ├─{msedge}(6718)
+           │               │                   │                           │              ├─{msedge}(6804)
+           │               │                   │                           │              ├─{msedge}(6805)
+           │               │                   │                           │              ├─{msedge}(6807)
+           │               │                   │                           │              ├─{msedge}(6808)
+           │               │                   │                           │              ├─{msedge}(6810)
+           │               │                   │                           │              ├─{msedge}(6811)
+           │               │                   │                           │              ├─{msedge}(6887)
+           │               │                   │                           │              ├─{msedge}(7463)
+           │               │                   │                           │              └─{msedge}(29804)
+           │               │                   │                           ├─msedge_crashpad(6562)─┬─{msedge_crashpad}(6566)
+           │               │                   │                           │                       └─{msedge_crashpad}(6567)
+           │               │                   │                           └─msedge_crashpad(6564)───{msedge_crashpad}(6565)
+           │               │                   ├─{gnome-shell}(4208)
+           │               │                   ├─{gnome-shell}(4209)
+           │               │                   ├─{gnome-shell}(4211)
+           │               │                   ├─{gnome-shell}(4212)
+           │               │                   ├─{gnome-shell}(4213)
+           │               │                   ├─{gnome-shell}(4214)
+           │               │                   ├─{gnome-shell}(4215)
+           │               │                   ├─{gnome-shell}(4216)
+           │               │                   ├─{gnome-shell}(4217)
+           │               │                   ├─{gnome-shell}(4218)
+           │               │                   ├─{gnome-shell}(4219)
+           │               │                   ├─{gnome-shell}(4220)
+           │               │                   ├─{gnome-shell}(4230)
+           │               │                   ├─{gnome-shell}(4234)
+           │               │                   ├─{gnome-shell}(4235)
+           │               │                   ├─{gnome-shell}(4236)
+           │               │                   ├─{gnome-shell}(4237)
+           │               │                   ├─{gnome-shell}(4238)
+           │               │                   ├─{gnome-shell}(4239)
+           │               │                   ├─{gnome-shell}(4240)
+           │               │                   ├─{gnome-shell}(4244)
+           │               │                   ├─{gnome-shell}(4245)
+           │               │                   ├─{gnome-shell}(4246)
+           │               │                   ├─{gnome-shell}(4247)
+           │               │                   ├─{gnome-shell}(4248)
+           │               │                   ├─{gnome-shell}(4249)
+           │               │                   ├─{gnome-shell}(4250)
+           │               │                   ├─{gnome-shell}(4322)
+           │               │                   ├─{gnome-shell}(4323)
+           │               │                   ├─{gnome-shell}(4339)
+           │               │                   ├─{gnome-shell}(5039)
+           │               │                   ├─{gnome-shell}(5048)
+           │               │                   ├─{gnome-shell}(6158)
+           │               │                   ├─{gnome-shell}(6159)
+           │               │                   ├─{gnome-shell}(11793)
+           │               │                   ├─{gnome-shell}(29949)
+           │               │                   └─{gnome-shell}(29950)
+           │               ├─gnome-shell-cal(4278)─┬─{gnome-shell-cal}(4311)
+           │               │                       ├─{gnome-shell-cal}(4312)
+           │               │                       ├─{gnome-shell-cal}(4316)
+           │               │                       ├─{gnome-shell-cal}(4317)
+           │               │                       ├─{gnome-shell-cal}(4318)
+           │               │                       └─{gnome-shell-cal}(4708)
+           │               ├─gnome-software(4545)─┬─bwrap(8403)───bwrap(8404)───glycin-image-rs(8405)─┬─{glycin-image-rs}(8406)
+           │               │                      │                                                   └─{glycin-image-rs}(8407)
+           │               │                      ├─{gnome-software}(4603)
+           │               │                      ├─{gnome-software}(4604)
+           │               │                      ├─{gnome-software}(4606)
+           │               │                      ├─{gnome-software}(5292)
+           │               │                      ├─{gnome-software}(5300)
+           │               │                      ├─{gnome-software}(5429)
+           │               │                      ├─{gnome-software}(5433)
+           │               │                      ├─{gnome-software}(5434)
+           │               │                      ├─{gnome-software}(5435)
+           │               │                      ├─{gnome-software}(5447)
+           │               │                      ├─{gnome-software}(5607)
+           │               │                      ├─{gnome-software}(5608)
+           │               │                      └─{gnome-software}(8402)
+           │               ├─goa-daemon(4644)─┬─{goa-daemon}(4664)
+           │               │                  ├─{goa-daemon}(4665)
+           │               │                  └─{goa-daemon}(4667)
+           │               ├─goa-identity-se(4676)─┬─{goa-identity-se}(4685)
+           │               │                       ├─{goa-identity-se}(4686)
+           │               │                       ├─{goa-identity-se}(4687)
+           │               │                       ├─{goa-identity-se}(4688)
+           │               │                       └─{goa-identity-se}(4899)
+           │               ├─gsd-a11y-settin(4329)─┬─{gsd-a11y-settin}(4362)
+           │               │                       ├─{gsd-a11y-settin}(4364)
+           │               │                       ├─{gsd-a11y-settin}(4365)
+           │               │                       └─{gsd-a11y-settin}(4423)
+           │               ├─gsd-color(4330)─┬─{gsd-color}(4468)
+           │               │                 ├─{gsd-color}(4469)
+           │               │                 ├─{gsd-color}(4472)
+           │               │                 └─{gsd-color}(4478)
+           │               ├─gsd-datetime(4332)─┬─{gsd-datetime}(4451)
+           │               │                    ├─{gsd-datetime}(4453)
+           │               │                    ├─{gsd-datetime}(4463)
+           │               │                    └─{gsd-datetime}(4481)
+           │               ├─gsd-disk-utilit(4348)─┬─{gsd-disk-utilit}(4432)
+           │               │                       ├─{gsd-disk-utilit}(4433)
+           │               │                       └─{gsd-disk-utilit}(4441)
+           │               ├─gsd-housekeepin(4333)─┬─{gsd-housekeepin}(4434)
+           │               │                       ├─{gsd-housekeepin}(4436)
+           │               │                       ├─{gsd-housekeepin}(4442)
+           │               │                       └─{gsd-housekeepin}(4479)
+           │               ├─gsd-keyboard(4337)─┬─{gsd-keyboard}(4366)
+           │               │                    ├─{gsd-keyboard}(4368)
+           │               │                    ├─{gsd-keyboard}(4369)
+           │               │                    └─{gsd-keyboard}(4371)
+           │               ├─gsd-media-keys(4342)─┬─{gsd-media-keys}(4382)
+           │               │                      ├─{gsd-media-keys}(4383)
+           │               │                      ├─{gsd-media-keys}(4387)
+           │               │                      └─{gsd-media-keys}(4457)
+           │               ├─gsd-power(4346)─┬─{gsd-power}(4379)
+           │               │                 ├─{gsd-power}(4381)
+           │               │                 ├─{gsd-power}(4385)
+           │               │                 └─{gsd-power}(4474)
+           │               ├─gsd-print-notif(4349)─┬─{gsd-print-notif}(4437)
+           │               │                       ├─{gsd-print-notif}(4438)
+           │               │                       └─{gsd-print-notif}(4440)
+           │               ├─gsd-printer(5303)─┬─{gsd-printer}(5304)
+           │               │                   ├─{gsd-printer}(5305)
+           │               │                   └─{gsd-printer}(5306)
+           │               ├─gsd-rfkill(4358)─┬─{gsd-rfkill}(4377)
+           │               │                  ├─{gsd-rfkill}(4378)
+           │               │                  └─{gsd-rfkill}(4380)
+           │               ├─gsd-screensaver(4363)─┬─{gsd-screensaver}(4445)
+           │               │                       ├─{gsd-screensaver}(4446)
+           │               │                       └─{gsd-screensaver}(4449)
+           │               ├─gsd-sharing(4373)─┬─{gsd-sharing}(4396)
+           │               │                   ├─{gsd-sharing}(4397)
+           │               │                   ├─{gsd-sharing}(4398)
+           │               │                   └─{gsd-sharing}(4399)
+           │               ├─gsd-smartcard(4375)─┬─{gsd-smartcard}(4392)
+           │               │                     ├─{gsd-smartcard}(4393)
+           │               │                     ├─{gsd-smartcard}(4395)
+           │               │                     ├─{gsd-smartcard}(4415)
+           │               │                     └─{gsd-smartcard}(4419)
+           │               ├─gsd-sound(4376)─┬─{gsd-sound}(4422)
+           │               │                 ├─{gsd-sound}(4424)
+           │               │                 ├─{gsd-sound}(4431)
+           │               │                 └─{gsd-sound}(4444)
+           │               ├─gsd-usb-protect(4386)─┬─{gsd-usb-protect}(4400)
+           │               │                       ├─{gsd-usb-protect}(4401)
+           │               │                       ├─{gsd-usb-protect}(4402)
+           │               │                       └─{gsd-usb-protect}(4421)
+           │               ├─gsd-wwan(4389)─┬─{gsd-wwan}(4447)
+           │               │                ├─{gsd-wwan}(4448)
+           │               │                ├─{gsd-wwan}(4461)
+           │               │                └─{gsd-wwan}(4480)
+           │               ├─gvfs-afc-volume(4613)─┬─{gvfs-afc-volume}(4615)
+           │               │                       ├─{gvfs-afc-volume}(4616)
+           │               │                       ├─{gvfs-afc-volume}(4617)
+           │               │                       └─{gvfs-afc-volume}(4619)
+           │               ├─gvfs-goa-volume(4626)─┬─{gvfs-goa-volume}(4631)
+           │               │                       ├─{gvfs-goa-volume}(4632)
+           │               │                       └─{gvfs-goa-volume}(4636)
+           │               ├─gvfs-gphoto2-vo(4683)─┬─{gvfs-gphoto2-vo}(4695)
+           │               │                       ├─{gvfs-gphoto2-vo}(4696)
+           │               │                       └─{gvfs-gphoto2-vo}(4698)
+           │               ├─gvfs-mtp-volume(4703)─┬─{gvfs-mtp-volume}(4715)
+           │               │                       ├─{gvfs-mtp-volume}(4717)
+           │               │                       └─{gvfs-mtp-volume}(4718)
+           │               ├─gvfs-udisks2-vo(4586)─┬─{gvfs-udisks2-vo}(4600)
+           │               │                       ├─{gvfs-udisks2-vo}(4601)
+           │               │                       ├─{gvfs-udisks2-vo}(4602)
+           │               │                       └─{gvfs-udisks2-vo}(4605)
+           │               ├─gvfsd(4172)─┬─gvfsd-mtp(5489)─┬─{gvfsd-mtp}(5490)
+           │               │             │                 ├─{gvfsd-mtp}(5491)
+           │               │             │                 ├─{gvfsd-mtp}(5492)
+           │               │             │                 ├─{gvfsd-mtp}(5494)
+           │               │             │                 ├─{gvfsd-mtp}(5496)
+           │               │             │                 └─{gvfsd-mtp}(5500)
+           │               │             ├─{gvfsd}(4178)
+           │               │             ├─{gvfsd}(4179)
+           │               │             └─{gvfsd}(4180)
+           │               ├─gvfsd-fuse(4183)─┬─{gvfsd-fuse}(4187)
+           │               │                  ├─{gvfsd-fuse}(4188)
+           │               │                  ├─{gvfsd-fuse}(4189)
+           │               │                  ├─{gvfsd-fuse}(4191)
+           │               │                  └─{gvfsd-fuse}(4193)
+           │               ├─gvfsd-metadata(4774)─┬─{gvfsd-metadata}(4780)
+           │               │                      ├─{gvfsd-metadata}(4781)
+           │               │                      └─{gvfsd-metadata}(4782)
+           │               ├─ibus-daemon(4327)─┬─ibus-dconf(4459)─┬─{ibus-dconf}(4470)
+           │               │                   │                  ├─{ibus-dconf}(4471)
+           │               │                   │                  ├─{ibus-dconf}(4482)
+           │               │                   │                  └─{ibus-dconf}(4505)
+           │               │                   ├─ibus-engine-sim(4783)─┬─{ibus-engine-sim}(4784)
+           │               │                   │                       ├─{ibus-engine-sim}(4785)
+           │               │                   │                       └─{ibus-engine-sim}(4786)
+           │               │                   ├─ibus-engine-tb(5723)─┬─{ibus-engine-tb}(5743)
+           │               │                   │                      ├─{ibus-engine-tb}(5744)
+           │               │                   │                      ├─{ibus-engine-tb}(5745)
+           │               │                   │                      └─{ibus-engine-tb}(5746)
+           │               │                   ├─ibus-extension-(4464)─┬─{ibus-extension-}(4523)
+           │               │                   │                       ├─{ibus-extension-}(4524)
+           │               │                   │                       ├─{ibus-extension-}(4525)
+           │               │                   │                       ├─{ibus-extension-}(4527)
+           │               │                   │                       └─{ibus-extension-}(4528)
+           │               │                   ├─{ibus-daemon}(4416)
+           │               │                   ├─{ibus-daemon}(4418)
+           │               │                   └─{ibus-daemon}(4427)
+           │               ├─ibus-portal(4541)─┬─{ibus-portal}(4547)
+           │               │                   ├─{ibus-portal}(4548)
+           │               │                   └─{ibus-portal}(4550)
+           │               ├─localsearch-3(4543)─┬─{localsearch-3}(4579)
+           │               │                     ├─{localsearch-3}(4580)
+           │               │                     ├─{localsearch-3}(4581)
+           │               │                     ├─{localsearch-3}(4582)
+           │               │                     ├─{localsearch-3}(4589)
+           │               │                     ├─{localsearch-3}(4681)
+           │               │                     └─{localsearch-3}(4682)
+           │               ├─p11-kit-server(6532)───p11-kit-remote(6809)
+           │               ├─pipewire(4194)─┬─{pipewire}(4196)
+           │               │                └─{pipewire}(4197)
+           │               ├─pipewire-pulse(4546)─┬─{pipewire-pulse}(4556)
+           │               │                      └─{pipewire-pulse}(4560)
+           │               ├─ptyxis(24475)─┬─ptyxis-agent(24485)─┬─bash(27917)───ollama(27953)─┬─{ollama}(27954)
+           │               │               │                     │                             ├─{ollama}(27955)
+           │               │               │                     │                             ├─{ollama}(27956)
+           │               │               │                     │                             ├─{ollama}(27957)
+           │               │               │                     │                             ├─{ollama}(27958)
+           │               │               │                     │                             ├─{ollama}(27959)
+           │               │               │                     │                             ├─{ollama}(27960)
+           │               │               │                     │                             ├─{ollama}(27961)
+           │               │               │                     │                             ├─{ollama}(27962)
+           │               │               │                     │                             ├─{ollama}(27963)
+           │               │               │                     │                             ├─{ollama}(28035)
+           │               │               │                     │                             └─{ollama}(28036)
+           │               │               │                     ├─bash(28037)───pstree(29976)
+           │               │               │                     ├─{ptyxis-agent}(24487)
+           │               │               │                     ├─{ptyxis-agent}(24488)
+           │               │               │                     ├─{ptyxis-agent}(24489)
+           │               │               │                     └─{ptyxis-agent}(24511)
+           │               │               ├─{ptyxis}(24476)
+           │               │               ├─{ptyxis}(24477)
+           │               │               ├─{ptyxis}(24478)
+           │               │               ├─{ptyxis}(24480)
+           │               │               ├─{ptyxis}(24482)
+           │               │               ├─{ptyxis}(24506)
+           │               │               ├─{ptyxis}(24507)
+           │               │               ├─{ptyxis}(24508)
+           │               │               ├─{ptyxis}(24509)
+           │               │               ├─{ptyxis}(24510)
+           │               │               ├─{ptyxis}(27231)
+           │               │               ├─{ptyxis}(27232)
+           │               │               ├─{ptyxis}(27233)
+           │               │               ├─{ptyxis}(27234)
+           │               │               ├─{ptyxis}(27235)
+           │               │               ├─{ptyxis}(27236)
+           │               │               ├─{ptyxis}(27237)
+           │               │               ├─{ptyxis}(27238)
+           │               │               ├─{ptyxis}(27239)
+           │               │               ├─{ptyxis}(27240)
+           │               │               ├─{ptyxis}(27241)
+           │               │               ├─{ptyxis}(27242)
+           │               │               ├─{ptyxis}(27243)
+           │               │               └─{ptyxis}(29951)
+           │               ├─uresourced(4163)─┬─{uresourced}(4166)
+           │               │                  ├─{uresourced}(4168)
+           │               │                  ├─{uresourced}(4169)
+           │               │                  └─{uresourced}(4190)
+           │               ├─wireplumber(4195)─┬─{wireplumber}(4198)
+           │               │                   ├─{wireplumber}(4199)
+           │               │                   ├─{wireplumber}(4200)
+           │               │                   ├─{wireplumber}(4204)
+           │               │                   ├─{wireplumber}(4206)
+           │               │                   ├─{wireplumber}(4260)
+           │               │                   ├─{wireplumber}(4261)
+           │               │                   └─{wireplumber}(4262)
+           │               ├─xdg-desktop-por(4611)─┬─{xdg-desktop-por}(4614)
+           │               │                       ├─{xdg-desktop-por}(4620)
+           │               │                       ├─{xdg-desktop-por}(4622)
+           │               │                       └─{xdg-desktop-por}(5283)
+           │               ├─xdg-desktop-por(4649)─┬─{xdg-desktop-por}(4669)
+           │               │                       ├─{xdg-desktop-por}(4670)
+           │               │                       ├─{xdg-desktop-por}(4671)
+           │               │                       ├─{xdg-desktop-por}(4856)
+           │               │                       └─{xdg-desktop-por}(5228)
+           │               ├─xdg-desktop-por(5284)─┬─{xdg-desktop-por}(5285)
+           │               │                       ├─{xdg-desktop-por}(5286)
+           │               │                       ├─{xdg-desktop-por}(5287)
+           │               │                       ├─{xdg-desktop-por}(5289)
+           │               │                       └─{xdg-desktop-por}(5290)
+           │               ├─xdg-document-po(4627)─┬─fusermount3(4641)
+           │               │                       ├─{xdg-document-po}(4633)
+           │               │                       ├─{xdg-document-po}(4634)
+           │               │                       ├─{xdg-document-po}(4635)
+           │               │                       ├─{xdg-document-po}(4640)
+           │               │                       ├─{xdg-document-po}(4645)
+           │               │                       └─{xdg-document-po}(4646)
+           │               └─xdg-permission-(4276)─┬─{xdg-permission-}(4282)
+           │                                       ├─{xdg-permission-}(4283)
+           │                                       └─{xdg-permission-}(4290)
+           ├─systemd-homed(827)
+           ├─systemd-journal(611)
+           ├─systemd-logind(843)
+top - 16:45:54 up  1:27,  1 user,  load average: 0,21, 0,29, 0,32
+Tasks: 414 total, 2 running, 411 sleep, 0 d-sleep, 0 stopped, 1 zombie
+%Cpu(s):  1,0 us,  0,4 sy,  0,0 ni, 98,4 id,  0,0 wa,  0,1 hi,  0,1 si,  0,0 st 
+MiB Mem :  15365,9 total,   5222,7 free,   4191,8 used,   6369,8 buff/cache     
+MiB Swap:   8192,0 total,   7494,7 free,    697,3 used.  11174,1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                       
+   4184 mariana   20   0 9451904 232748 132464 S   6,3   1,5   2:20.89 gnome-shell                                                   
+  24475 mariana   20   0 3049408 145096 102496 S   4,0   0,9   0:16.82 ptyxis                                                        
+   8951 mariana   20   0 1448,5g 487840 159872 S   3,0   3,1   6:10.43 msedge                                                        
+   6632 mariana   20   0   53,2g 140148 110112 S   1,0   0,9   3:44.01 msedge                                                        
+   6790 mariana   20   0 1456,0g 536980 157792 S   0,7   3,4   2:04.36 msedge                                                        
+  23755 root      20   0       0      0      0 R   0,7   0,0   0:01.24 kworker/u48:7-events_unbound                                  
+    999 root      20   0  501508  31704  16708 S   0,3   0,2   0:00.89 tuned                                                         
+   1551 zerotie+  20   0  526604  10088   6856 S   0,3   0,1   0:03.38 zerotier-one                                                  
+   2138 root      20   0 2008164  12892   8284 S   0,3   0,1   0:01.59 containerd-shim                                               
+   2162 999       20   0   39392   4488   3620 S   0,3   0,0   0:19.17 redis-server                                                  
+   2178 root      20   0 2008164  12912   8216 S   0,3   0,1   0:01.65 containerd-shim                                               
+   3541 root      20   0  223332  87272  28640 S   0,3   0,6   0:07.17 python3.11                                                    
+   6540 mariana   20   0   53,5g 449380 342824 S   0,3   2,9   3:13.76 msedge                                                        
+  31739 mariana   20   0 1450,3g 118332  82152 S   0,3   0,8   0:00.24 msedge                                                        
+      1 root      20   0   39596  21664  12092 S   0,0   0,1   0:02.46 systemd                                                       
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd                                                      
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_workqueue_release                                        
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_gp                                              
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-sync_wq                                             
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kvfree_rcu_reclaim                                  
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-slub_flushwq                                        
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-netns                                               
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-kblockd                                          
+     13 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mm_percpu_wq                                        
+     15 root      20   0       0      0      0 S   0,0   0,0   0:00.10 ksoftirqd/0                                                   
+     16 root      20   0       0      0      0 I   0,0   0,0   0:02.33 rcu_preempt                                                   
+     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_exp_par_gp_kthread_worker/0                               
+     18 root      20   0       0      0      0 S   0,0   0,0   0:00.04 rcu_exp_gp_kthread_worker                                     
+     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.18 migration/0                                                   
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kprobe-optimizer                                              
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                                 
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                                       
+     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                                 
+     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.61 migration/1                                                   
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.02 ksoftirqd/1                                                   
+     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-kblockd                                          
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                                       
+     30 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                                 
+     31 root      rt   0       0      0      0 S   0,0   0,0   0:00.20 migration/2                                                   
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/2                                                   
+     34 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-kblockd                                          
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3                                                       
+     36 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3                                                 
+     37 root      rt   0       0      0      0 S   0,0   0,0   0:00.65 migration/3                                                   
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/3                                                   
+     40 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-kblockd                                          
+     41 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/4                                                       
+     42 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/4                                                 
+     43 root      rt   0       0      0      0 S   0,0   0,0   0:00.53 migration/4                                                   
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/4                                                   
+     45 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0-events                                            
+     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0H-kblockd                                          
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/5                                                       
+     48 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/5                                                 
+     49 root      rt   0       0      0      0 S   0,0   0,0   0:00.36 migration/5                                                   
+mariana@fedora:~$ strace -f -c -p 1544 -o ollama-strace-resumo.txt
+

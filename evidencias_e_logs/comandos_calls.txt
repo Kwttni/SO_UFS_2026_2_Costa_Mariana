@@ -1,0 +1,57 @@
+mariana@fedora:~$ sudo strace -f -c -p 1544 -o ollama-strace-resumo.txt
+[sudo] senha para mariana: 
+strace: Process 1544 attached with 19 threads
+^Cstrace: Process 2045 detached
+strace: Process 24709 detached
+strace: Process 24708 detached
+strace: Process 1762 detached
+strace: Process 1736 detached
+strace: Process 1735 detached
+strace: Process 1734 detached
+strace: Process 1733 detached
+strace: Process 1683 detached
+strace: Process 1682 detached
+strace: Process 1681 detached
+strace: Process 1680 detached
+strace: Process 1679 detached
+strace: Process 1673 detached
+strace: Process 1672 detached
+strace: Process 1671 detached
+strace: Process 1670 detached
+strace: Process 1669 detached
+strace: Process 1544 detached
+
+mariana@fedora:~$ sudo strace -f -c -p 27964 -o llama-strace-resumo.txt
+strace: attach: ptrace(PTRACE_SEIZE, 27964): Processo inexistente
+mariana@fedora:~$ sudo strace -f -c -p 2256 -o uvicorn-strace-resumo.txt
+strace: attach: ptrace(PTRACE_SEIZE, 2256): Operação não permitida
+strace: Process 2256 is already being traced by pid 36501
+mariana@fedora:~$ sudo strace -f -c -p 3541 -o python-strace-resumo.txt
+strace: Process 3541 attached with 5 threads
+^Cstrace: Process 3561 detached
+strace: Process 3564 detached
+strace: Process 3563 detached
+strace: Process 3562 detached
+strace: Process 3541 detached
+
+mariana@fedora:~$ sudo strace -f -c -p 2126 -o redis-strace-resumo.txt
+strace: attach: ptrace(PTRACE_SEIZE, 2126): Processo inexistente
+mariana@fedora:~$ sudo strace -f -c -p 2231 -o containerd-strace-resumo.txt
+strace: Process 2231 attached with 11 threads
+^Cstrace: Process 2240 detached
+strace: Process 2416 detached
+strace: Process 2242 detached
+strace: Process 2241 detached
+strace: Process 2239 detached
+strace: Process 2238 detached
+strace: Process 2237 detached
+strace: Process 2236 detached
+strace: Process 2235 detached
+strace: Process 2234 detached
+strace: Process 2231 detached
+
+
+
+
+
+
